@@ -1,0 +1,4 @@
+services:
+ role_module.role_service:
+   class: Drupal\role_module\Services\RoleModuleService
+   arguments: ['@config.factory']

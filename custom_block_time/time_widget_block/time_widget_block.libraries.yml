@@ -1,0 +1,9 @@
+time_widget_block_scripts:
+  header: false
+  js:
+    js/timewidget.js: {}
+  css:
+    theme:
+      css/timewidget.css: {}
+  dependencies:
+    - core/jquery 

@@ -1,0 +1,23 @@
+custom_config_form.my_form:
+  path: '/my-form/add'
+  defaults:
+    _form:  '\Drupal\custom_config_form\Form\CustomConfigForm'
+    _title: 'My Form | Add'
+  requirements:
+    _permission: 'access content'
+
+custom_config_form.my_form_update:
+  path: '/my-form/{userid}/edit'
+  defaults:
+    _form:  '\Drupal\custom_config_form\Form\CustomConfigFormUpdate'
+    _title: 'My Form | Update'
+  requirements:
+    _permission: 'access content'
+
+custom_config_form.change_password:
+  path: '/my-form/change-password'
+  defaults:
+    _form:  '\Drupal\custom_config_form\Form\ChangePassword'
+    _title: 'My Form | Update'
+  requirements:
+    _permission: 'access content'

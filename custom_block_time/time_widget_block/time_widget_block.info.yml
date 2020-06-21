@@ -1,0 +1,5 @@
+name: 'Time Widget Block'
+type: module
+description: 'Time Widget Block Sidebar'
+core: 8.x
+package: 'Custom'

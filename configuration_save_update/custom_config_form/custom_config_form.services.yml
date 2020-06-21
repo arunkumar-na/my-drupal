@@ -1,0 +1,4 @@
+services:
+ custom_config_form.my_form:
+   class: Drupal\custom_config_form\Services\CustomConfigFormService
+   arguments: ['@config.factory']

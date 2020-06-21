@@ -1,0 +1,15 @@
+role_module.student_request:
+  path: '/student-request'
+  defaults:
+    _form:  '\Drupal\role_module\Form\StudentRequest'
+    _title: 'Student Request'
+  requirements:
+    _permission: 'access content'
+
+role_module.teacher_assign:
+  path: '/teacher-assign'
+  defaults:
+    _form:  '\Drupal\role_module\Form\TeacherAssign'
+    _title: 'Teacher Assignation'
+  requirements:
+    _permission: 'access content'

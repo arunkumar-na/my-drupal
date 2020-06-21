@@ -1,0 +1,15 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function time_widget_block_theme() {
+  return [
+    'time_widget_block' => [
+      'render element' => 'children',
+      'variables' => array(
+        'content' => NULL,
+      ),
+    ],
+  ];
+}
+

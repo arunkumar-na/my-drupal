@@ -1,0 +1,5 @@
+name: Custom Config Form
+type: module
+description: Custom config form with services.
+core: 8.x
+package: 'Custom'

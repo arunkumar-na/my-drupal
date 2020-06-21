@@ -1,0 +1,23 @@
+
+#time-widget {
+  font-family: 'Orbitron', sans-serif;
+  color: #F18904;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight:bold;
+}
+
+.time-div{
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000000;
+  border-radius: 15px;
+}
+
+.time-div p{
+  color:#fff;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-top: 8px;
+}

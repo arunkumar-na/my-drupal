@@ -1,0 +1,5 @@
+name: Role Based Module
+type: module
+description: Custom Role based module with services.
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - time_widget_block
+  theme:
+    - bartik
+id: showtimewidgetblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: time_widget_block
+settings:
+  id: time_widget_block
+  label: 'Show time widget block'
+  provider: time_widget_block
+  label_display: visible
+  message: 'Time widget Sidebar'
+  name: 'Time widget developed by Arun'
+visibility: {  }

@@ -1,0 +1,18 @@
+{#
+
+Description text for the Form API Example.
+
+#}
+
+{{ attach_library('core/drupal.dialog.ajax') }}
+{% set student_request = path('role_module.student_request') %}
+{% set teacher_assign = path('role_module.teacher_assign') %}
+
+{% trans %}
+
+<p>This module also provides a block, "Example: Display a form" that
+    demonstrates how to display a form in a block. This same technique can be
+    used whenever you need to display a form that is not the primary content of
+    a page. You can enable it on your site <a href={{ block_admin }}>using the
+    block admin page</a>.</p>
+{% endtrans %}
