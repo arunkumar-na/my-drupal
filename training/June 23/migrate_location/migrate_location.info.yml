@@ -1,0 +1,5 @@
+name: 'migrate_location'
+type: module
+description: 'Migration of Location'
+core: 8.x
+package: 'Custom'
