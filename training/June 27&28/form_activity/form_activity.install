@@ -1,0 +1,59 @@
+<?php
+
+
+function form_activity_schema() {
+$schema['form_activity'] = array(
+    'description' => 'Details of users.',
+    
+    'fields' => array(
+        'id' => array(
+        'description' => 'The primary key',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE),
+      
+      'firstname' => array(
+        'description' => 'First Name',
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => FALSE),
+      
+      'lastname' => array(
+        'description' => 'Last Name',
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => FALSE),
+      
+      'bio' => array(
+        'description' => 'Bio',
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => FALSE),
+      
+      'gender' => array(
+        'description' => 'Gender',
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => FALSE),
+		
+	  'interest' => array(
+        'description' => 'Interest',
+        'type' => 'varchar',
+        'length' => '255',
+        'not null' => FALSE),
+    ),  
+    
+    'primary key' => array('id'),
+    
+  );
+  return $schema;
+ }
+
+function details_module_install() {
+
+  drupal_install_schema('form_activity');
+}
+
+function details_module_uninstall() {
+  drupal_uninstall_schema('form_activity');
+}

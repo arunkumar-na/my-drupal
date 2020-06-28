@@ -1,0 +1,7 @@
+form_activity.submit:
+  path: '/form-activity/add'
+  defaults:
+    _form:  '\Drupal\form_activity\Form\FormActivityAjax'
+    _title: 'Ajax Form | Add'
+  requirements:
+    _permission: 'access content'
