@@ -1,0 +1,23 @@
+profile_module.submit:
+  path: '/inactive-users'
+  defaults:
+    _form:  '\Drupal\profile_module\Form\InactiveUsersList'
+    _title: 'Inactive Users List'
+  requirements:
+    _permission: 'access content'
+
+profile_module.add_profile:
+  path: '/add-profile'
+  defaults:
+    _form:  '\Drupal\profile_module\Form\AddProfile'
+    _title: 'Add Profile'
+  requirements:
+    _permission: 'access content'
+
+profile_module.view_profile:
+  path: '/users/{uid}'
+  defaults:
+    _controller:  '\Drupal\profile_module\Controller\ViewProfileController::viewProfile'
+    _title: 'View Profile'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+name: 'profile_module'
+type: module
+description: 'Profile Module Activity'
+core: 8.x
+package: 'Custom'

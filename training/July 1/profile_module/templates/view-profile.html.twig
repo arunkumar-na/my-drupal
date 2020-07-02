@@ -1,0 +1,23 @@
+<div>
+<h1>My Profile</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Gender</th>
+                <th>Bio</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for value in content %}
+                <tr>
+                    <th>{{value.firstname}}</th>
+                    <th>{{value.lastname}}</th>
+                    <th>{{value.bio}}</th>
+                    <th>{{value.gender}}</th>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>   
+</div>
